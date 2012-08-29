@@ -1,0 +1,111 @@
+
+button{
+    background: -webkit-linear-gradient(top, #f6fafe, #eaf1f8);
+    border-radius: 2px;
+    width: 24px  ;
+    height: 19px;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 7px;
+    color: #4F6366;
+    border: 1px solid #000
+}
+
+.number{
+    font-size: 10px;
+    font-weight: normal;
+    }
+
+.numbers{
+    float: left;
+    width: 90px;
+    }
+.operator,.equalTo,.percentage,.clear{
+    background: -webkit-linear-gradient(top, #f0f1f6,#d6e0ec)
+}
+button[value='C']{
+
+    top:0px;
+    left:-30px;
+    width: 54px
+
+}
+button[value='0']{
+
+    top:0px;
+    left:-30px;
+    width: 54px
+
+}
+button:hover{
+    background: #FFE26C
+}
+/*
+.addition{
+    font-weight: normal;
+    background: -webkit-linear-gradient(top, #ecf2f8, #d5e0ee)
+}
+*/
+button #equalTo{
+    height: 29px
+}
+
+body{
+    border: 1px solid #fff;
+    width: 158px;
+    border-radius: 5px ;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+div{
+    background: #d9e4f1;
+    padding: 10px 0;
+
+}
+
+input{
+    border-radius: 3px;
+    height: 30px;
+    border: 1px solid #8e9cad;
+    background: -webkit-linear-gradient(top, #e6effa, #fff);
+    direction: rtl;
+    margin: 0 0 5px 3px
+}
+.history{
+    border: 1px solid #EEE;
+    width: 145px;
+    margin: -6px 5px 5px 5px;
+    border-radius: 5px;
+    direction:rtl;
+    height:1px ;
+    color:#fff;
+    font-weight:bold;
+    font-size:12px
+}
+
+.marginTop10px{
+     margin-top:10px
+}
+.theme1 {
+    background:#fff ;
+    border:1px solid #67b3d3 ;
+    border-radius:5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.theme1 button{
+    background:#2d90bd;
+    color:#fff;
+    box-shadow: 2px 2px 3px #888888;
+}
+.theme1 button:hover{
+    background: #FFE26C ;
+    color:#000
+}
+.theme1 .history{
+    background: -webkit-linear-gradient(top, #67b3d3, #42a1c9)
+}
+
+ .theme2 .numbers .number{
+    color:green  ;
+ }
